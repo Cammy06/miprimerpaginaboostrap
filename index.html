@@ -145,6 +145,31 @@
     
         <!-- Fin card -->
 
+      <!-- === INICIO: Botón PDF + Modal PDF === -->
+    <div class="container text-center mt-2 mb-4">
+      <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#pdfModal">
+        Ver PDF
+      </button>
+    </div>
+
+    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="pdfModalLabel">Visualizador de PDF</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body" style="height:80vh;">
+            <iframe src="documento/Ajuste de curvas por minimos cuadrados (1).pdf" width="100%" height="100%" style="border:none;"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- === FIN: Botón PDF + Modal PDF === -->
+
     <!-- ======================== INICIO CONTENEDOR PRINCIPAL ======================== -->
     <div class="container">
       <h1>Hello world contenedor en bootstrap</h1>
@@ -181,6 +206,33 @@
           </div>
         </nav>
       <!-- ======================== FIN NAVBAR ======================== -->
+
+
+      <!-- === INICIO: Botón Video + Modal Video === -->
+    <div class="container text-center mt-4">
+      <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">
+        Ver Video
+      </button>
+    </div>
+
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Video</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-TZz_CVKiHY?si=BW4avBmhc3G36n1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- === FIN: Botón Video + Modal Video === -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-TZz_CVKiHY?si=BW4avBmhc3G36n1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          </div>
 
     </div>
     <!-- ======================== FIN CONTENEDOR PRINCIPAL ======================== -->
